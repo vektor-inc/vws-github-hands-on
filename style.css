@@ -1,0 +1,133 @@
+/* ===================================
+   色の設定
+   ここの色を変えるとサイト全体の色が変わります
+   =================================== */
+:root {
+  --main-color: #6f4e37;   /* メインの色（コーヒーブラウン） */
+  --accent-color: #c9a227; /* アクセントの色 */
+  --bg-color: #fbf8f3;     /* 背景の色 */
+  --text-color: #333333;   /* 文字の色 */
+}
+
+/* ===================================
+   全体
+   =================================== */
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===================================
+   ヘッダー
+   =================================== */
+.header {
+  background: var(--main-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 24px 32px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: 0.15em;
+}
+
+.site-catch {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* ===================================
+   メインビジュアル
+   =================================== */
+.hero {
+  background: var(--accent-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 56px 24px;
+}
+
+.hero-text {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ===================================
+   セクション
+   =================================== */
+.section {
+  margin: 48px 0;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* ===================================
+   メニュー
+   =================================== */
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 4px;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.menu-price {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+/* ===================================
+   表（営業時間）
+   =================================== */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th,
+.info-table td {
+  text-align: left;
+  padding: 12px 4px;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.info-table th {
+  width: 30%;
+  color: var(--main-color);
+}
+
+/* ===================================
+   フッター
+   =================================== */
+.footer {
+  margin-top: 64px;
+  background: var(--main-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 24px;
+  font-size: 0.85rem;
+}
