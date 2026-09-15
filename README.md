@@ -34,11 +34,3 @@ VWSオンライン勉強会 #50「AI時代に最低限知っておきたいGitHu
 - 「お知らせ」セクションを新しく追加する
 - 定休日を変更する
 
-## GitHub Pages で公開する
-
-リポジトリの Settings → Pages → Source で `main` ブランチを選ぶと、
-`https://ユーザー名.github.io/リポジトリ名/` でサイトが公開されます。
-
----
-
-主催 : [株式会社ベクトル](https://www.vektor-inc.co.jp/)
